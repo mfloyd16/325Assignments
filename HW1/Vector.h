@@ -12,14 +12,20 @@
 #ifndef VECTOR_H
 #define VECTOR_H
 
+#include <string>
 using namespace std;
 
 class Vector {
  public:
-  
+
+  // Constructor
+  Vector(const string& message);
+
+  // Method to print the message
+  void printMessage() const;
   
  private:
-  
+  string message;
   
 };
 

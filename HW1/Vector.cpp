@@ -11,11 +11,14 @@
 
 #include <iostream>
 #include <fstream>
+#include "Vector.h"
 
 using namespace std;
 
-int main() {
-  
-  
-  return 0;
-}
+  // Constructor implementation
+  Vector::Vector(const string& message) : message(message) {}
+
+  // Method implementation
+  void Vector::printMessage() const {
+    cout << message << endl;
+  }

@@ -11,11 +11,15 @@
 
 #include <iostream>
 #include <fstream>
+#include "Vector.h"
 
 using namespace std;
 
 int main() {
   
+  Vector vec("Hello, World");
+
+  vec.printMessage();
   
   return 0;
 }
